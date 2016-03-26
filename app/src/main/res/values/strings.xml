@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practica2</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="valor1">Ingrese un número</string>
+    <string name="valor2">Ingrese un número</string>
+    <string name="calcular">Calcular</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="multi">Multiplicación</string>
+    <string name="divi">División</string>
+    <string name="resultado">Resultado</string>
+
+</resources>

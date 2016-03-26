@@ -1,0 +1,32 @@
+<resources>
+
+    <string-array name="ciudades">
+        <item>Medellín</item>
+        <item>Bogotá</item>
+        <item>Manizales</item>
+        <item>Cali</item>
+    </string-array>
+    <string name="app_name">formulario</string>
+    <string name="loggin">Loggin:</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="password">Password:</string>
+    <string name="rpassword">Confirmar Password:</string>
+    <string name="mail">eMail:</string>
+    <string name="sexo">Sexo:</string>
+    <string name="femenino">Femenino</string>
+    <string name="masculino">Masculino</string>
+    <string name="nacimiento">Fecha de nacimineto:</string>
+    <string name="ciudad">Ciudad:</string>
+    <string name="medellin">Medellín</string>
+    <string name="bogota">Bogotá</string>
+    <string name="manizales">Manizales</string>
+    <string name="cali">Cali</string>
+    <string name="hobbie">Hobbies:</string>
+    <string name="musica">Música</string>
+    <string name="deporte">Deportes</string>
+    <string name="lectura">Lectura</string>
+    <string name="viajes">Viajes</string>
+    <string name="aceptar">Aceptar</string>
+
+
+</resources>

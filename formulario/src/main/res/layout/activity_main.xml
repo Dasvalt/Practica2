@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danielortizagudelo.formulario.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loggin"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingresar"/>
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingresar"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rpassword"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingresar"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mail"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingresar"/>
+
+
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sexo"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/masculino"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/femenino"/>
+
+        </RadioGroup>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nacimiento"
+            android:textSize="20sp"
+            />
+
+    <DatePicker
+        android:id="@+id/dateP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </DatePicker>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ciudad"
+            android:textSize="18sp"/>
+
+
+    <Spinner
+        android:id="@+id/ciudades"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </Spinner>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hobbie"
+        android:textSize="18sp"/>
+
+<CheckBox
+    android:id="@+id/hmusica"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/musica"/>
+
+    <CheckBox
+        android:id="@+id/hlectura"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/lectura"
+        />
+
+    <CheckBox
+        android:id="@+id/hdeporte"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/deporte"
+        />
+
+    <CheckBox
+        android:id="@+id/hviajes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/viajes"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aceptar"/>
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

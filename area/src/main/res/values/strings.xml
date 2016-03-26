@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Calculadora de Area</string>
+    <string name="cuadro">Cuadro</string>
+    <string name="triangulo">Triangulo</string>
+    <string name="rectangulo">Rectangulo</string>
+    <string name="circulo">Circulo</string>
+    <string name="lado">Ingrese el lado</string>
+    <string name="base">Ingrese la base</string>
+    <string name="altura">Ingrese la altura</string>
+    <string name="calcular">Calcular Area</string>
+    <string name="area">Resultado</string>
+    <string name="volver">Volver</string>
+    <string name="radio">Ingrese el radio</string>
+
+</resources>
