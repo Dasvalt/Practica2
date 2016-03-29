@@ -26,6 +26,7 @@
         android:textSize="18sp"
         />
     <EditText
+        android:id="@+id/loggin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/ingresar"/>
@@ -39,6 +40,7 @@
             android:textSize="18sp"
             />
         <EditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/ingresar"/>
@@ -51,6 +53,7 @@
             android:textSize="18sp"
             />
         <EditText
+            android:id="@+id/Cpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/ingresar"/>
@@ -66,6 +69,7 @@
             android:textSize="18sp"
             />
         <EditText
+            android:id="@+id/mail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/ingresar"/>
@@ -81,16 +85,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/sexo"
-                android:textSize="20sp"/>
+                android:textSize="18sp"/>
 
             <RadioButton
+                android:id="@+id/masculino"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/masculino"/>
+                android:text="@string/masculino"
+                android:onClick="onButton"/>
             <RadioButton
+                android:id="@+id/femenino"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/femenino"/>
+                android:text="@string/femenino"
+                android:onClick="onButton"/>
 
         </RadioGroup>
 
@@ -105,12 +113,12 @@
             android:textSize="20sp"
             />
 
-    <DatePicker
-        android:id="@+id/dateP"
+    <Button
+        android:id="@+id/pick_date"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </DatePicker>
+        android:layout_height="wrap_content"
+        android:text="@string/pick_date"
+        android:onClick="showDatePickerDialog" />
 
 
 
@@ -139,13 +147,15 @@
     android:id="@+id/hmusica"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="@string/musica"/>
+    android:text="@string/musica"
+    android:onClick="onBox"/>
 
     <CheckBox
         android:id="@+id/hlectura"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/lectura"
+        android:onClick="onBox"
         />
 
     <CheckBox
@@ -153,6 +163,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/deporte"
+        android:onClick="onBox"
         />
 
     <CheckBox
@@ -160,14 +171,84 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/viajes"
+        android:onClick="onBox"
         />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/aceptar"/>
 
+    <TextView
+        android:id="@+id/error1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
 
+    <TextView
+        android:id="@+id/error2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/logginS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/passwordS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/eMailS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/sexoS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/dateS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/cityS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/hobbieS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/hobbieS1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/hobbieS2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/hobbieS3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
 
 
 
